@@ -1,12 +1,11 @@
 <html>
   <head>
     <title>BrickBrick Breaker</title>
-    <style>
-      * {padding: 0; margin: 0;}
-      canvas {background: #eee; display: block; margin: 0 auto;}
-      div#titleBlock {text-align: center;}
-      span #mainMessage {font-size: 22;}
-    </style>
+    <script data-main="../js/app/" src="../js/lib/require.js"></script>
+    <link rel="stylesheet" href="../css/brickBreaker.css"/>
+    <script>
+      require(['brickBreaker'])
+    </script>
   </head>
   <body>
     <div id="titleBlock">
@@ -15,5 +14,4 @@
     </div>
     <canvas id="mainCanvas" width="480" height="320"></canvas>
   </body>
-  <script src="javascript/brickBreak.js"></script>
 </html>
