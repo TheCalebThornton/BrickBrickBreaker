@@ -1,0 +1,4 @@
+* {padding: 0; margin: 0;}
+canvas {background: #eee; display: block; margin: 0 auto;}
+div#titleBlock {text-align: center;}
+span #mainMessage {font-size: 22;}
